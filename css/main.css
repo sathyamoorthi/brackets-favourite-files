@@ -1,0 +1,58 @@
+#favouritefiles-panel td
+{
+    padding: 6px 15px;
+}
+
+.favouritefile-name
+{
+    font-size: 13px;
+}
+
+.favouritefile-path
+{
+    font-style: italic;
+    color: gray;
+    font-size: 11px;
+}
+
+.favouritefile-btn
+{
+    padding: 0px 5px 2px 5px;
+    font-size: 10px;
+    margin-left: 8px;
+    margin-top: 1px;
+    vertical-align: top;
+    display: none;
+}
+
+.favouritefile-separator
+{
+    margin: 0px 8px;
+    color: gray;
+}
+
+.favouritefile-sort-container
+{
+    position: absolute;
+    right: 60px;
+    top: 1px;
+}
+
+.favouritefile-toolbar
+{
+    padding: 6px 10px 7px 10px !important;
+}
+
+.favouritefile-sortby-lbl
+{
+    margin: 5px 3px 0px 0px;
+    display: inline-block;
+    color: gray;
+    font-size: 12px;
+}
+
+#favouritefile-sort-option
+{
+    margin: 0px;
+    width: 110px;
+}

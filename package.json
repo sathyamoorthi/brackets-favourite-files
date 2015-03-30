@@ -1,0 +1,15 @@
+{
+    "name": "favourite-files",
+    "title": "Favourite Files",
+    "description": "Add files to your favourite list and access them across all projects.",
+    "homepage": "https://github.com/sathyamoorthi/brackets-favourite-files",
+    "version": "0.1",
+    "author": "Sathyamoorthi<sathyamoorthi10@gmail.com>",
+    "files": [
+        "main.js",
+        "README.md"
+    ],
+    "engines": {
+        "brackets": ">1.0.0"
+    }
+}
