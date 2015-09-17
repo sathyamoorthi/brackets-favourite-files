@@ -46,8 +46,12 @@ define(function (require, exports, module) {
         toggleID        = namespace + ".menu",
         cmdShowPanel    = "Show Favourite Files Panel",
         cmdHidePanel    = "Hide Favourite Files Panel",
-        favouriteFiles;
-    
+        favouriteFiles,
+        $icon = $("<a>")
+          .attr({id: "favouritefile-icon", class: "fa fa-star", href: "#"})
+          .click(toggleFavouritesPanel)
+          .appendTo($("#main-toolbar .buttons"));    
+  
     function init() {
         var $table = panel.$panel.find("tbody");
         
@@ -128,6 +132,7 @@ define(function (require, exports, module) {
     
     AppInit.appReady(function () {
         ExtensionUtils.loadStyleSheet(module, "css/main.css");
+        ExtensionUtils.loadStyleSheet(module, "css/font-awesome/css/font-awesome.min.css");
     });
     
     CommandManager.register("Add to Favourites", namespace, function () {
