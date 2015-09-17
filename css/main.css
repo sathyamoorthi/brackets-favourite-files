@@ -56,3 +56,11 @@
     margin: 0px;
     width: 110px;
 }
+
+#favouritefile-icon 
+{
+    color: #bbb !important;
+    padding-top: 4px;
+    height: 18px !important;
+    text-decoration: none !important;
+}
